@@ -16,7 +16,7 @@
 
 - __[Python 3.11](https://www.google.com/search?q=docs.python.org)__
 - __[googleapiclient](https://www.google.com/search?q=googleapiclient+python)__ 
-- __[mysql_connector](https://www.google.com/search?q=mysql+connector)__ 
+- __[postgresSQL](https://www.google.com/search?q=mysql+connector)__ 
 - __[Pandas](https://www.google.com/search?q=python+pandas)__
 - __[Streamlit](https://www.google.com/search?q=python+streamlit)__
 - __[Numpy](https://www.google.com/search?q=numpy)__ 
