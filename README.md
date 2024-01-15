@@ -9,7 +9,7 @@ The goal of this project is to create a Streamlit application that enables users
    - Data includes Channel name, Subscribers, Total video count, Playlist ID, Video ID, Likes, and Comments for each video.
   
   
-  ``` py
+     ``` py
                     1. Channels
                     2. Videos 
                     3. CommentThreads
