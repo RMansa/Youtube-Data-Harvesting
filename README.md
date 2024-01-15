@@ -18,15 +18,16 @@ The goal of this project is to create a Streamlit application that enables users
 2. **Storage in MongoDB:**
    - Users can store data in a MongoDB database acting as a data lake.
    - Data can be collected for up to 10 different YouTube channels and stored in the data lake with a single button click.
+   ```html
+         
 
-    ``` json
-           {'Channel_Name': 'ANTUBER',
-             'Channel_Id': 'UCemjlI9CerTnnvqtt0hz9yw',
-             'Subscribers': '39300',
-             'Views': '22264932',
-            'Total_Videos': '26',
-             'Channel_Description': 'moved onto something even bigger lol\n- rr, ag\n',
-             'Playlist_Id': 'UUemjlI9CerTnnvqtt0hz9yw'}
+         {'Channel_Name': 'ANTUBER',
+          'Channel_Id': 'UCemjlI9CerTnnvqtt0hz9yw',
+          'Subscribers': '39300',
+          'Views': '22264932',
+          'Total_Videos': '26',
+          'Channel_Description': 'moved onto something even bigger lol\n- rr, ag\n',
+          'Playlist_Id': 'UUemjlI9CerTnnvqtt0hz9yw'}
 
 
 3. **Migration to SQL Database:**
@@ -50,7 +51,7 @@ The goal of this project is to create a Streamlit application that enables users
 ## General Requirements
 
 - Python 3.11
-- Libraries: googleapiclient, postgresSQL, Pandas, Streamlit, Numpy, pymongo, requests.
+   - Libraries: googleapiclient, postgresSQL, Pandas, Streamlit, Numpy, pymongo, requests.
 
 - **Database:**
   - MongoDB: Data lake for storing raw data.
