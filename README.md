@@ -19,7 +19,7 @@ The goal of this project is to create a Streamlit application that enables users
    - Users can store data in a MongoDB database acting as a data lake.
    - Data can be collected for up to 10 different YouTube channels and stored in the data lake with a single button click.
 
- ``` json
+    ``` json
            {'Channel_Name': 'ANTUBER',
              'Channel_Id': 'UCemjlI9CerTnnvqtt0hz9yw',
              'Subscribers': '39300',
@@ -35,7 +35,7 @@ The goal of this project is to create a Streamlit application that enables users
 4. **SQL Database Interaction:**
    - Users can search and retrieve data from the SQL database using different search options, including joining tables to get channel details.
 
- ``` sql
+    ``` sql
            
         CREATE TABLE IF NOT EXISTS Channel_Table (
             Ch_id INTEGER PRIMARY KEY AUTOINCREMENT,
